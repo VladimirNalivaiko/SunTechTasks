@@ -1,0 +1,44 @@
+header{
+  margin: 0;
+}
+
+.navbar{
+  background-color: #34302d;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 65px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.nav-brand{
+  float: left;
+}
+
+.nav-items{
+  float: right;
+}
+
+.nav-list{
+  list-style: none;
+  display: block;
+}
+
+.nav-list > li {
+  position: relative;
+  display: inline;
+  float: left;
+}
+
+.nav-list > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
