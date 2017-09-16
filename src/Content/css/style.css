@@ -60,7 +60,7 @@ header{
   background-color: #6db33f;
 }
 
-a.spring-logo span{
+a.spring-logo{
   display: block;
   width: 224px;
   height: 47px;
@@ -68,7 +68,7 @@ a.spring-logo span{
   background: url("../img/spring-logo.png");
 }
 
-a.spring-logo span:hover{
+a.spring-logo:hover{
   display: block;
   width: 224px;
   height: 47px;
@@ -78,4 +78,40 @@ a.spring-logo span:hover{
 
 #search-icon:hover{
   text-shadow: 0px 0px 10px #6db33f;
+}
+
+.meeting-wrapper{
+  background-image: url("../img/first-picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Varela Round";
+  padding: 100px 0;
+  margin: 0 -10px;
+}
+
+.fiture-certification{
+  display: inline-block;
+  width: 155px;
+  height: 154px;
+  background: url("../img/homepage-feature-certification.png");
+}
+
+.meeting-title{
+  display: inline-block;
+  background: rgba(52,48,45,.8);
+  letter-spacing: -2px;
+  font-size: 48px;
+  margin-top: 60px;
+  padding: 0 15px;
+  color: #f1f1f1;
+}
+
+.meeting-info{
+  display: inline-block;
+  background: rgba(52,48,45,.8);
+  color: #f1f1f1;
+  font-size: 22px;
+  padding: 0 15px;
+  margin-top: 10px;
 }
