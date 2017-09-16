@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-header{
+.navigation{
   margin: 0;
-}
-
-.navbar{
   background-color: #34302d;
   position: absolute;
   top: 0;
@@ -14,12 +11,12 @@ header{
   border-top: 4px solid #6db33f;
 }
 
-.container{
+.box{
   margin: 0 auto;
   width: 75%;
 }
 
-.nav-brand{
+.nav-logo{
   float: left;
 }
 
@@ -42,10 +39,10 @@ header{
 
   position: relative;
   display: block;
-  padding: 22.5px 15px;
+  padding: 20.5px 15px;
   text-decoration: none;
   color: white;
-      -webkit-transition: all .15s;
+  -webkit-transition: all .15s;
 }
 
 .nav-list > li > i {
@@ -87,7 +84,7 @@ a.spring-logo:hover{
   text-align: center;
   font-family: "Varela Round";
   padding: 100px 0;
-  margin: 0 -10px;
+  margin: 0 -8px;
 }
 
 .fiture-certification{
@@ -114,4 +111,52 @@ a.spring-logo:hover{
   font-size: 22px;
   padding: 0 15px;
   margin-top: 10px;
+}
+
+.advantages{
+  font-family: "Varela Round";
+  background-color: #6db33f;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.first-adv-pic{
+  display: inline-block;
+  width: 110px;
+  height: 87px;
+  background: url("../img/BUILD_ANYTHING.png");
+}
+
+.second-adv-pic{
+  display: inline-block;
+  width: 125px;
+  height: 69px;
+  margin-top: 18px;
+  background: url("../img/RUN_ANYWHERE.png");
+}
+
+.third-adv-pic{
+  display: inline-block;
+  width: 90px;
+  height: 87px;
+  background: url("../img/REST_ASSURED.png");
+}
+
+.adv-block{
+  padding: 60px 0;
+}
+
+.adv{
+  color: #f1f1f1;
+}
+
+.adv-title{
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.adv-info{
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 25px;
 }

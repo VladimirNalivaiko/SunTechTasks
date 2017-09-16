@@ -6,28 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="Content/css/style.css" />
   <link rel="stylesheet" href="Content/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+  crossorigin="anonymous">
+
   <title>Spring</title>
 </head>
 <body>
-  <header>
-    <div class="navbar">
-      <div class="container">
-        <div class="nav-brand">
-          <a href="" class="spring-logo"></a>
-        </div>
-        <ul class="nav-list">
-          <li class="nav-link"><a href="#">DOCS</a></li>
-          <li class="nav-link"><a href="#">GUIDES</a></li>
-          <li class="nav-link"><a href="#">PROJECTS</a></li>
-          <li class="nav-link"><a href="#">BLOG</a></li>
-          <li class="nav-link"><a href="#">QUESTION</a></li>
-          <li class="nav-link">
-             <i class="fa fa-search fa-2x" id="search-icon" aria-hidden="true"></i>
-          </li>
-        </ul>
+  <div class="navigation">
+    <div class="box">
+      <div class="nav-logo">
+        <a href="" class="spring-logo"></a>
       </div>
+      <ul class="nav-list">
+        <li class="link"><a href="#">DOCS</a></li>
+        <li class="link"><a href="#">GUIDES</a></li>
+        <li class="link"><a href="#">PROJECTS</a></li>
+        <li class="link"><a href="#">BLOG</a></li>
+        <li class="link"><a href="#">QUESTION</a></li>
+        <li class="link">
+           <i class="fa fa-search fa-2x" id="search-icon" aria-hidden="true"></i>
+        </li>
+      </ul>
     </div>
-  </header>
+  </div>
 
   <section class="meeting-wrapper">
     <div class="meeting-icon">
@@ -40,6 +42,48 @@
     <div class="meeting-info">
       Spring helps development teams everywhere build simple, portable,<br>
       fast and flexible JVM-based systems and applications.
+    </div>
+  </section>
+  <section class="container-fluid advantages">
+    <div class="container">
+      <div class="row">
+        <div class="adv-block col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+          <span class="first-adv-pic"></span>
+          <div class="adv adv-title">
+            BUILD ANYTHING
+          </div>
+          <div class="adv adv-info">
+            Write clean, testable code against the
+             infrastructure components of your
+              choice and accomplish any task –
+               without re-inventing the wheel.
+          </div>
+        </div>
+        <div class="adv-block col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+          <span class="second-adv-pic"></span>
+          <div class="adv adv-title">
+            RUN ANYWHERE
+          </div>
+          <div class="adv adv-info">
+            Keep it portable – Spring-based apps
+             run anywhere the JVM does. Deploy
+              standalone, in an app server, on a
+               Cloud or all of the above.
+          </div>
+        </div>
+        <div class="adv-block col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+          <span class="third-adv-pic"></span>
+          <div class="adv adv-title">
+            REST ASSURED
+          </div>
+          <div class="adv adv-info">
+            Code with confidence – Spring
+             provides an open programming
+              model that is comprehensive,
+               cohesive, widely understood and well-supported.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
