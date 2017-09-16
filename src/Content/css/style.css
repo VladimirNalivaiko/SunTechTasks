@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
 header{
   margin: 0;
 }
@@ -22,6 +24,7 @@ header{
 }
 
 .nav-list{
+  font-family: "Varela Round";
   position: relative;
   margin: 0;
   height: 65px;
@@ -36,14 +39,24 @@ header{
 }
 
 .nav-list > li > a {
+
   position: relative;
   display: block;
-  padding: 23.5px 15px;
+  padding: 22.5px 15px;
+  text-decoration: none;
+  color: white;
+      -webkit-transition: all .15s;
+}
+
+.nav-list > li > i {
+  position: relative;
+  display: block;
+  padding: 16.5px 15px;
   text-decoration: none;
   color: white;
 }
 
-.nav-list > li:hover{
+.nav-list > li > a:hover{
   background-color: #6db33f;
 }
 
@@ -61,4 +74,8 @@ a.spring-logo span:hover{
   height: 47px;
   margin: 9px;
   background: url("../img/spring-logo-hover.png");
+}
+
+#search-icon:hover{
+  text-shadow: 0px 0px 10px #6db33f;
 }
