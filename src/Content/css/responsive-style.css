@@ -1,0 +1,105 @@
+@media (max-width: 700px) {
+	.burger-btn {
+		position: absolute;
+    display: block;
+    float: left;
+  	margin: 13px 13px;
+  	cursor: pointer;
+  }
+
+	.nav-logo {
+		width: 125px;
+    height: 41px;
+		display: inline-block;
+		overflow-y: hidden;
+	}
+
+  .nav-logo a{
+    background: url("../img/small-logo.png");
+  }
+  .nav-logo a:hover{
+    background: url("../img/small-logo.png");
+  }
+  .nav-list{
+    display: none;
+  }
+	.navigation	{
+		height: 50px;
+		position: relative;
+		text-align: center;
+		border: 0;
+	}
+
+	.fiture-certification{
+		display: none;
+	}
+
+	.meeting-title{
+	  display: inline-block;
+	  font-size: 40px;
+	  margin-top: 0;
+	  padding: 0 20px;
+	  color: #f1f1f1;
+	}
+}
+
+@media(min-width: 1092px){
+	.box{
+	  margin: 0 auto;
+	  max-width: 1092px;
+	}
+}
+
+@media(max-width: 1092px){
+	.box{
+	  margin: 0 auto;
+		width: 100%;
+	}
+}
+
+@media(max-width: 850px){
+	.nav-list{
+		margin-left: -30px;
+	}
+
+	.nav-list > li > a {
+	  position: relative;
+	  display: block;
+	  padding: 20.5px 10px;
+	  text-decoration: none;
+	  color: white;
+	  -webkit-transition: all .15s;
+	}
+}
+
+@media(max-width: 770px){
+	.nav-list{
+		margin-left: -30px;
+	}
+
+	.nav-list > li > a {
+	  position: relative;
+	  display: block;
+	  padding: 21.5px 9px;
+		font-size: 15px;
+	  text-decoration: none;
+	  color: white;
+	  -webkit-transition: all .15s;
+	}
+}
+
+@media(max-width: 750px){
+	.nav-list{
+		margin-left: -30px;
+	}
+
+	.nav-list > li > a {
+	  position: relative;
+	  display: block;
+	  padding: 22px 8px;
+		font-size: 14px;
+	  text-decoration: none;
+	  color: white;
+	  -webkit-transition: all .15s;
+	}
+}

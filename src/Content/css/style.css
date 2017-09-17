@@ -5,23 +5,16 @@
 }
 
 .navigation{
-  margin: 0;
   background-color: #34302d;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  min-height: 65px;
+  position: relative;
+  height: 69px;
   border-top: 4px solid #6db33f;
 }
 
-.box{
-  margin: 0 auto;
-  width: 80%;
-}
-
-.nav-logo{
-  float: left;
+@media (min-width: 700px) {
+  .nav-logo{
+    float: left;
+  }
 }
 
 .nav-list{
@@ -60,16 +53,18 @@
   background-color: #6db33f;
 }
 
-a.spring-logo{
+.nav-logo a{
   display: block;
+  margin: 0;
   width: 224px;
   height: 47px;
   margin: 9px;
   background: url("../img/spring-logo.png");
 }
 
-a.spring-logo:hover{
+.nav-logo a:hover{
   display: block;
+  margin: 0;
   width: 224px;
   height: 47px;
   margin: 9px;
@@ -120,7 +115,6 @@ a.spring-logo:hover{
   font-family: "Varela Round";
   background-color: #6db33f;
   text-align: center;
-  margin-bottom: -20px;
 }
 
 .first-adv-pic{
@@ -201,4 +195,17 @@ a.spring-logo:hover{
   font-size: 12px;
   float: left;
   padding-left: 25px;
+}
+
+.burger-btn {
+  display: none;
+}
+
+
+.divide {
+  display: block;
+	height: 2px;
+  width: 22px;
+	margin: 4px 0;
+	background: #f1f1f1;
 }
