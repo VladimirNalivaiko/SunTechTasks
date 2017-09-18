@@ -12,6 +12,17 @@ jQuery(document).ready(function($) {
   setActiveLink();
 });
 
+var searchClick = function(event) {
+  $('.search-box').toggleClass('active');
+  $('#search-icon').toggleClass('active');
+
+  var icon = document.getElementById('search-icon');
+
+  icon.classList.toggle('fa-search');
+  icon.classList.toggle('fa-times');
+  icon.classList.toggle('fa-2x');
+}
+
 var setActiveLink = function() {
   var el = document.getElementById(localStorage.getItem('clicked-link'));
   if(el !== null){
