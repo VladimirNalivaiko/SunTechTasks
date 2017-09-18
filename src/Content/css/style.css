@@ -209,3 +209,7 @@
 	margin: 4px 0;
 	background: #f1f1f1;
 }
+
+.sidebar{
+  display: none;
+}
