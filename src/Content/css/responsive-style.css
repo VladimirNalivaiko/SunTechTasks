@@ -82,6 +82,10 @@
 		border-bottom: 1px solid #474441;
 	}
 
+	.mobile-nav-list-item-active{
+		background-color: #262321;
+	}
+
 	.mobile-nav-list-item > a{
 		padding: 15px;
 		display: block;
