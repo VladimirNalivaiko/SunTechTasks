@@ -64,6 +64,7 @@
 	.content.active{
 		-webkit-transform: translateX(270px);
 		-webkit-transition: all .25s;
+		 position: fixed;
 	}
 
 	.mobile-nav-search{
@@ -132,6 +133,47 @@
 		border: none;
 		color: #9d9b99;
 	}
+
+	.search-box{
+		display: none;
+	}
+
+	.adv-block{
+	  padding: 0 0;
+	}
+
+	.feature-row:first-child{
+		margin-top: 60px;
+	}
+
+	.feature-row{
+		margin: 7% 0;
+	}
+
+	.feature-row:last-child{
+		margin-bottom: 60px;
+	}
+
+	.meeting-title{
+		padding: 4px 19px;
+		line-height: 36px;
+		font-size: 30px;
+		text-align: left;
+		width: 100%;
+	}
+
+	.meeting-info{
+		padding: 12px 19px;
+		font-size: 18px;
+		line-height: 24px;
+		text-align: left;
+		width: 100%;
+	}
+
+	.meeting-block{
+		width: 89%;
+		margin: -20px auto 0 auto;
+	}
 }
 
 .sidebar{
@@ -198,13 +240,13 @@
 
 @media(max-width: 750px){
 	.nav-list{
-		margin-left: -30px;
+		margin-left: -35px;
 	}
 
 	.nav-list > li > a {
 	  position: relative;
 	  display: block;
-	  padding: 22px 8px;
+	  padding: 22px 7px;
 		font-size: 14px;
 	  text-decoration: none;
 	  color: white;

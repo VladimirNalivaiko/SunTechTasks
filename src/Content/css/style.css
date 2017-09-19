@@ -38,20 +38,24 @@
   color: #34302d;
 }
 
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #ccc;  
+}
+
 .desktop-search-input{
   width: 90%;
   height: 100%;
   outline: none;
   border: none;
   font-size: 21px;
-  font-style: italic;
-  color: #ccc;
+  color: #34302D;
   padding-left: 12px;
 }
 
 .search-box.active{
   -webkit-transform: translatey(69px);
-  -webkit-transition: all .15s;
+  -webkit-transition: all .25s;
 }
 
 @media (min-width: 700px) {
@@ -81,7 +85,7 @@
   padding: 20.5px 15px;
   text-decoration: none;
   color: white;
-  -webkit-transition: all .15s;
+  -webkit-transition: all .25s;
 }
 
 .nav-list > li > i {
