@@ -40,7 +40,7 @@
 
 ::-webkit-input-placeholder {
   font-style: italic;
-  color: #ccc;  
+  color: #ccc;
 }
 
 .desktop-search-input{
@@ -56,12 +56,6 @@
 .search-box.active{
   -webkit-transform: translatey(69px);
   -webkit-transition: all .25s;
-}
-
-@media (min-width: 700px) {
-  .nav-logo{
-    float: left;
-  }
 }
 
 .nav-list{
@@ -141,7 +135,7 @@
   margin: 0 -8px;
 }
 
-.fiture-certification{
+.feature-certification{
   display: inline-block;
   width: 155px;
   height: 154px;
@@ -257,7 +251,6 @@
   display: none;
 }
 
-
 .divide {
   display: block;
 	height: 2px;
@@ -268,4 +261,11 @@
 
 .sidebar{
   display: none;
+  -webkit-transition: all .25s;
+  float: left;
+	background-color: #34302d;
+}
+
+.content{
+	-webkit-transition: all .25s;
 }

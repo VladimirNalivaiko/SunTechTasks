@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media(max-width: 700px) {
 	.burger-btn {
 		position: absolute;
     display: block;
@@ -31,7 +31,7 @@
 		display: block;
 	}
 
-	.fiture-certification{
+	.feature-certification{
 		display: none;
 	}
 
@@ -176,21 +176,10 @@
 	}
 }
 
-.sidebar{
-	float: left;
-	background-color: #34302d;
-}
-
-.content{
-	-webkit-transition: all .25s;
-}
-
-.navigation {
-	-webkit-transition: all .25s;
-}
-
-.sidebar {
-	-webkit-transition: all .25s;
+@media (min-width: 700px) {
+  .nav-logo{
+    float: left;
+  }
 }
 
 @media(min-width: 1092px){
