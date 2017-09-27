@@ -21,6 +21,7 @@
   top: 0;
   background-color: #fff;
   height: 69px;
+  transition: all .15s;
   -webkit-transition: all .15s;
 }
 
@@ -54,6 +55,8 @@
 }
 
 .search-box.active{
+  transform: translatey(69px);
+  transition: all .25s;
   -webkit-transform: translatey(69px);
   -webkit-transition: all .25s;
 }
@@ -79,6 +82,7 @@
   padding: 20.5px 15px;
   text-decoration: none;
   color: white;
+  transition:  all .25s;
   -webkit-transition: all .25s;
 }
 
@@ -253,19 +257,21 @@
 
 .divide {
   display: block;
-	height: 2px;
+  height: 2px;
   width: 22px;
-	margin: 4px 0;
-	background: #f1f1f1;
+  margin: 4px 0;
+  background: #f1f1f1;
 }
 
 .sidebar{
   display: none;
+  transition: all .25s;
   -webkit-transition: all .25s;
   float: left;
-	background-color: #34302d;
+  background-color: #34302d;
 }
 
 .content{
-	-webkit-transition: all .25s;
+  transition: all .25s;
+  -webkit-transition: all .25s;
 }

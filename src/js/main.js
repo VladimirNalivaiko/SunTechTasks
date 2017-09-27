@@ -21,8 +21,6 @@ jQuery(document).ready(function($) {
 });
 
 var setActiveLink = function() {
-  var el = document.getElementById(localStorage.getItem('clicked-link'));
-  if(el !== null){
-    el.classList.add('mobile-nav-list-item-active');
-  }
+  var el = (localStorage.getItem('clicked-link'));
+  $('#' + el).toggleClass('mobile-nav-list-item-active');
 };
