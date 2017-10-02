@@ -129,7 +129,7 @@
   text-shadow: 0px 0px 10px #6db33f;
 }
 
-.meeting-wrapper{
+.banner-wrapper{
   background-image: url("../img/first-picture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -139,14 +139,14 @@
   margin: 0 -8px;
 }
 
-.feature-certification{
+.banner-icon{
   display: inline-block;
   width: 155px;
   height: 154px;
   background: url("../img/homepage-feature-certification.png");
 }
 
-.meeting-title{
+.banner-title{
   display: inline-block;
   background: rgba(52,48,45,.8);
   letter-spacing: -2px;
@@ -156,7 +156,7 @@
   color: #f1f1f1;
 }
 
-.meeting-info{
+.banner-info{
   display: inline-block;
   background: rgba(52,48,45,.8);
   color: #f1f1f1;
@@ -212,7 +212,7 @@
   margin-top: 25px;
 }
 
-.footer{
+footer{
   background-color: #34302d;
   padding: 12px 0 30px 0;
 }

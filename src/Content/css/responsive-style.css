@@ -31,11 +31,11 @@
     display: block;
   }
 
-  .feature-certification{
+  .banner-icon{
     display: none;
   }
 
-  .meeting-title{
+  .banner-title{
     display: inline-block;
     font-size: 40px;
     margin-top: 0;
@@ -160,7 +160,7 @@
     margin-bottom: 60px;
   }
 
-  .meeting-title{
+  .banner-title{
     padding: 4px 19px;
     line-height: 36px;
     font-size: 30px;
@@ -168,7 +168,7 @@
     width: 100%;
   }
 
-  .meeting-info{
+  .banner-info{
     padding: 12px 19px;
     font-size: 18px;
     line-height: 24px;
@@ -176,7 +176,7 @@
     width: 100%;
   }
 
-  .meeting-block{
+  .banner{
     width: 89%;
     margin: -20px auto 0 auto;
   }
