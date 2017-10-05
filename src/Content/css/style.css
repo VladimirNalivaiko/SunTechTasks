@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+*{
+  overflow-x: hidden;
+  font-family: "Varela Round";
+}
+
+.navigation{
+  z-index: 999;
+  background-color: #34302d;
+  position: relative;
+  height: 69px;
+  border-top: 4px solid #6db33f;
+}
+
+.search-box{
+  z-index:1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  height: 69px;
+  transition: all .15s;
+  -webkit-transition: all .15s;
+}
+
+.active-search-field{
+  display: block;
+  position: relative;
+  height: 69px;
+}
+
+.active-search-icon{
+  float: right;
+  margin: 17px 8px 0 0;
+  background: transparent;
+  border: none;
+  color: #34302d;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #ccc;
+}
+
+.desktop-search-input{
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 21px;
+  color: #34302D;
+  padding-left: 12px;
+}
+
+.search-box.active{
+  transform: translatey(69px);
+  transition: all .25s;
+  -webkit-transform: translatey(69px);
+  -webkit-transition: all .25s;
+}
+
+.nav-list{
+  font-family: "Varela Round";
+  position: relative;
+  margin: 0;
+  height: 65px;
+  float: right;
+  list-style: none;
+  display: block;
+}
+
+.nav-list > li {
+  height: 100%;
+  float: left;
+}
+
+.nav-list > li > a {
+  position: relative;
+  display: block;
+  padding: 20.5px 15px;
+  text-decoration: none;
+  color: white;
+  transition:  all .25s;
+  -webkit-transition: all .25s;
+}
+
+.nav-list > li > i {
+  position: relative;
+  display: block;
+  padding: 16.5px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list > li > i.active {
+  position: relative;
+  display: block;
+  padding: 24.5px 26px;
+  text-decoration: none;
+  color: white;
+  background-color: #6db33f;
+}
+
+.nav-list > li > a:hover{
+  background-color: #6db33f;
+}
+
+.nav-logo a{
+  display: block;
+  margin: 0;
+  width: 224px;
+  height: 47px;
+  margin: 9px;
+  background: url("../img/spring-logo.png");
+}
+
+.nav-logo a:hover{
+  display: block;
+  margin: 0;
+  width: 224px;
+  height: 47px;
+  margin: 9px;
+  background: url("../img/spring-logo-hover.png");
+}
+
+#search-icon:hover{
+  text-shadow: 0px 0px 10px #6db33f;
+}
+
+.banner-wrapper{
+  background-image: url("../img/first-picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Varela Round";
+  padding: 100px 0;
+  margin: 0 -8px;
+}
+
+.banner-icon{
+  display: inline-block;
+  width: 155px;
+  height: 154px;
+  background: url("../img/homepage-feature-certification.png");
+}
+
+.banner-title{
+  display: inline-block;
+  background: rgba(52,48,45,.8);
+  letter-spacing: -2px;
+  font-size: 48px;
+  margin-top: 60px;
+  padding: 0 15px;
+  color: #f1f1f1;
+}
+
+.banner-info{
+  display: inline-block;
+  background: rgba(52,48,45,.8);
+  color: #f1f1f1;
+  font-size: 22px;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.advantages{
+  font-family: "Varela Round";
+  background-color: #6db33f;
+  text-align: center;
+}
+
+.first-adv-pic{
+  display: inline-block;
+  width: 110px;
+  height: 87px;
+  background: url("../img/BUILD_ANYTHING.png");
+}
+
+.second-adv-pic{
+  display: inline-block;
+  width: 125px;
+  height: 69px;
+  margin-top: 18px;
+  background: url("../img/RUN_ANYWHERE.png");
+}
+
+.third-adv-pic{
+  display: inline-block;
+  width: 90px;
+  height: 87px;
+  background: url("../img/REST_ASSURED.png");
+}
+
+.adv-block{
+  padding: 60px 0;
+}
+
+.adv{
+  color: #f1f1f1;
+}
+
+.adv-title{
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.adv-info{
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 25px;
+}
+
+footer{
+  background-color: #34302d;
+  padding: 12px 0 30px 0;
+}
+
+.navigation-footer-list{
+  font-family: "Varela Round";
+  font-size: 12px;
+  float: left;
+  display: block;
+  margin-left: -30px;
+}
+
+.navigation-footer-list > li {
+  height: 100%;
+  float: left;
+}
+
+.navigation-footer-list > li > a {
+  position: relative;
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-footer-list > li > a:hover{
+  color: #6db33f;
+}
+
+.footer-info{
+  display: block;
+  font-family: "Varela Round";
+  color: #f1f1f1;
+  font-size: 12px;
+  float: left;
+  padding-left: 25px;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.divide {
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin: 4px 0;
+  background: #f1f1f1;
+}
+
+.sidebar{
+  display: none;
+  transition: all .25s;
+  -webkit-transition: all .25s;
+  float: left;
+  background-color: #34302d;
+}
+
+.content{
+  transition: all .25s;
+  -webkit-transition: all .25s;
+}
